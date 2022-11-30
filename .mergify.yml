@@ -5,8 +5,7 @@ queue_rules:
 pull_request_rules:
   - name: merge using the merge queue
     conditions:
-      - "#approved-reviews-by>=2"
-      - check-success=Travis CI - Pull Request
+      - "#approved-reviews-by>=0"
     actions:
       queue:
         name: default
