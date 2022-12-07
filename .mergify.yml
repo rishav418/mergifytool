@@ -2,7 +2,7 @@ queue_rules:
   - name: def
     conditions: 
       - "#check-failure=0"
-      - "#check-success=0"
+      - "#check-success>=0"
 
 pull_request_rules:
   - name: merge using the merge queue
