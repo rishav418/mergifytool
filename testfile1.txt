@@ -2,3 +2,4 @@ four five six
 Checking for the condition queue
 Now testing the pr rule condition
 again testing
+latest testing
