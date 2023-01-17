@@ -7,7 +7,7 @@ queue_rules:
 pull_request_rules:
   - name: merge using the merge queue
     conditions:
-      - "#approved-reviews-by>=0"
+      - "#approved-reviews-by>=1"
     actions:
       queue:
         name: def
