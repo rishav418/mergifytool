@@ -3,3 +3,5 @@ Checking for the condition queue
 Now testing the pr rule condition
 again testing
 latest testing
+checking for newest line
+seventh lin checked
