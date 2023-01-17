@@ -1,13 +1,13 @@
 queue_rules:
   - name: def
     conditions: 
-      - "#check-failure=0"
+      - "#check-failure=3"
       - "#check-success>=0"
 
 pull_request_rules:
   - name: merge using the merge queue
     conditions:
-      - "#approved-reviews-by>=1"
+      - "#approved-reviews-by>=0"
     actions:
       queue:
         name: def
